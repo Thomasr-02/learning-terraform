@@ -20,5 +20,7 @@ resource "aws_s3_bucket" "my-bucket-tf" {
     Name        = "My bucket for Terraform"
     Environment = "Dev"
     Managedby   = "Terraform"
+    Owner  = "Thomas R"
+    UpdateAt  = "02-09-2022"
   }
 }
