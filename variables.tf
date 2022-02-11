@@ -10,6 +10,12 @@ variable "bucket_tags" {
   description = "Map of tags to apply to the bucket"
 }
 
+variable bucket-name {
+  type        = string
+  default     = "tf-test-bucket"
+  description = "Bucket name"
+}
+
 
 variable "aws_region" {
   type        = string
